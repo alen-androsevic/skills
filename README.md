@@ -1,0 +1,18 @@
+# alen-androsevic skills
+
+A Claude Code plugin marketplace. This repository holds only the index, `.claude-plugin/marketplace.json`; each plugin lives in its own repository.
+
+```bash
+claude plugin marketplace add alen-androsevic/skills
+claude plugin install <plugin>@alen-androsevic
+```
+
+| Plugin | What it does |
+|---|---|
+| [break-the-ui](https://github.com/alen-androsevic/break-the-ui) | Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence |
+
+## Adding a plugin
+
+1. Give it its own repository with `.claude-plugin/plugin.json` and `skills/<name>/SKILL.md`. Skills that are used together go in one plugin, which namespaces them as `<plugin>:<skill>`.
+2. Add an entry to `plugins` in `.claude-plugin/marketplace.json` with `"source": { "source": "github", "repo": "alen-androsevic/<repo>" }`, using the same `name` as the plugin's `plugin.json`.
+3. Run `claude plugin validate .` and add a row to the table above.
