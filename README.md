@@ -9,7 +9,7 @@ claude plugin install <plugin>@alen-androsevic
 
 | Plugin | What it does |
 |---|---|
-| [break-the-ui](https://github.com/alen-androsevic/break-the-ui) | Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence |
+| [break-stuff](https://github.com/alen-androsevic/break-stuff) | Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence |
 
 ## Adding a plugin
 

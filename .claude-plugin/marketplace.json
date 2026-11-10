@@ -4,8 +4,8 @@
   "owner": { "name": "Alen Androsevic", "url": "https://github.com/alen-androsevic" },
   "plugins": [
     {
-      "name": "break-the-ui",
-      "source": { "source": "github", "repo": "alen-androsevic/break-the-ui" },
+      "name": "break-stuff",
+      "source": { "source": "github", "repo": "alen-androsevic/break-stuff" },
       "description": "Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence"
     }
   ]
