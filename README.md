@@ -10,6 +10,8 @@ claude plugin install <plugin>@alen-androsevic
 | Plugin | What it does |
 |---|---|
 | [break-stuff](https://github.com/alen-androsevic/break-stuff) | Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence |
+| [skat](https://github.com/alen-androsevic/skat) | Creates a new Claude Code skill through a few multiple-choice questions, grills the draft with grillmeister, and writes it as parts that skat builds into `skills/<name>/` |
+| [grillmeister](https://github.com/alen-androsevic/grillmeister) | Grills a Claude Code skill draft: finds every gap a cold run would trip over and asks you about each one, one multiple-choice question at a time, then fixes the draft |
 
 ## Adding a plugin
 

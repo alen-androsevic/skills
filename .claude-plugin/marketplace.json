@@ -7,6 +7,16 @@
       "name": "break-stuff",
       "source": { "source": "github", "repo": "alen-androsevic/break-stuff" },
       "description": "Drives a running web page or mobile app as a hostile user, tries to break it, and reports every break with repro steps and evidence"
+    },
+    {
+      "name": "skat",
+      "source": { "source": "github", "repo": "alen-androsevic/skat" },
+      "description": "Creates a new Claude Code skill through a few multiple-choice questions, grills the draft with grillmeister, and writes it as parts that skat builds into skills/<name>/"
+    },
+    {
+      "name": "grillmeister",
+      "source": { "source": "github", "repo": "alen-androsevic/grillmeister" },
+      "description": "Grills a Claude Code skill draft: finds every gap a cold run would trip over and asks you about each one, one multiple-choice question at a time, then fixes the draft"
     }
   ]
 }
